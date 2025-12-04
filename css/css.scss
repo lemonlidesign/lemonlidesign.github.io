@@ -1078,7 +1078,25 @@ li {
     top:10%;
     left:25%;
   }*/
-
+  .wrapper {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .divBlock_left,
+  .divBlock_left_clear {
+    float: none;
+  }
+  .divBlock_left,
+  .quote,
+  .textcontact {
+    text-align: center;
+  }
+  .bottom {
+    min-height: 100vh;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+  }
 }
 @media only screen and (max-width : 640px) {
  /* .wrapperAlign{
@@ -1089,4 +1107,3 @@ li {
 @media only screen and (max-width : 480px) {
 
 }
-
